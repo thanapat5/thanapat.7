@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h3>สมัครเรียน (ปีการศึกษา 1/2566) ระดับปวช.(ปกติ)</h3>
+    <p></p>
+    <h4>กรอกข้อมูลผู้สมัครเรียน</h4>
+    <form>
+        <div>
+            <label for="fname">รหัสประจำตัวประชาชน :</label>
+            <input type="text" id="fname" name="fname" placeholder="XXXXXXXXXXXXX"><br><br>
+            <input type="hidden" id="custId" name="custId" value="3487"><br>
+            <label for="">วันเกิด</label>
+            <input type="date" name="birtdate">
+            <br><br>
+            <input type="submit" value="ตรวจสอบ">
+            <input type="reset" value="เริ่มใหม่">
+        </div>
+        <br>
+        <div>
+            <label for="">สมัครโดยใช้วุฒิ</label>
+            <Input type="radio" name="" value="0">ม.3
+        </div>
+        <b>ข้อมูลส่วนตัวผู้สมัคร</b>
+        <div>
+            <label for="name">ชื่อ-นามสกุล ผู้สมัคร:</label>
+            <select id="" name="">
+                <option value="">- เลือก -</option>
+                <option value="mr.>">นาย</option>
+                <option value="miss">นางสาว</option>
+                <option value="miss">นาง</option>
+                <option value="girl">เด็กหญิง</option>
+                <option value="boy">เด็กชาย</option>
+            </select>
+            <input type="text" name="" placeholder=""> -
+            <input type="text" name="" placeholder="">
+        </div>
+        <label for="name">เพศ</label>
+        <select id="" name="">
+            <option value="">- เลือก -</option>
+            <option value="men">ชาย</option>
+            <option value="women">หญิง</option>
+            <option value="non">ไม่ต้องการระบุ</option>
+        </select>
+        <div>
+            <label for="">สัญชาติ</label>
+            <select id="" name="">
+                <option value="">- เลือก -</option>
+                <option value="">ไทย</option>
+                <option value="">อื่นๆ</option>
+            </select>
+            <label for="">ศาสนา</label>
+            <select id="" name="">
+                <option value="">- เลือก -</option>
+                <option value="">พุทธ</option>
+                <option value="">คริสต์</option>
+                <option value="">อิสลาม</option>
+                <option value="">ฮินดู</option>
+            </select>
+        </div>
+        <div>
+            <label for="">ความสามารถพิเศษ</label>
+            <select id="" name="">
+                <option value="">- เลือก -</option>
+                <option value="">ด้านสติปัญญา</option>
+                <option value="">ด้านความคิดสร้างสรรค์</option>
+                <option value="">ด้านการใช้ภาษา</option>
+                <option value="">ด้านการเป็นผู้นำ</option>
+                <option value="">ด้านการสร้างงานทางทัศนศิลป์</option>
+                <option value="">ด้านศิลปะการแสดง</option>
+                <option value="">ด้านดนตรี</option>
+                <option value="">ด้านกีฬา</option>
+                <option value="">ไม่ระบุ</option>
+            </select>
+            <label for="">ความพิการ</label>
+            <select id="" name="">
+                <option value="1">ไม่พิการ</option>
+                <option value="2">ความพิการทางการมองเห็น</option>
+                <option value="3">ความพิการทางการได้ยิน</option>
+                <option value="4">ความพิการทางสติปัญญา</option>
+                <option value="5">ความพิการร่างกาย,สุขภาพ</option>
+                <option value="6">ความพิการทางการเรียนรู้</option>
+                <option value="7">ความพิการทางการพูด,ภาษา</option>
+                <option value="8">ความพิการทางพฤติกรรมและอารมณ์</option>
+                <option value="9">ความพิการทางออทิสติก</option>
+                <option value="10">ความพิการซ้ำซ้อน</option>
+                <option value="11">พิการ (ไม่ระบุประเภท)</option>
+            </select>
+        </div>
+        <b>ข้อมูลที่อยู่ตามทะเบียนบ้าน</b>
+        <div>
+            <label for="">บ้านเลขที่</label>
+            <input id="" name="" type="text"" value="" style=" width:50px;" />
+            <label for="">หมู่</label>
+            <input id="" name="" type="text"" value="" style=" width:50px;" />
+            <label for="">ถนน</label>
+            <input id="" name="" type="text"" value="" style=" width:100px;" />
+        </div>
+        <div>
+            <label for="">จังหวัด</label>
+            <select id="" name="">
+                <option value="">- เลือก -</option>
+                <option value="">กรุงเทพ</option>
+                <option value="">อื่นๆ</option>
+            </select>
+            <label for="">โทรศัพท์บ้าน</label>
+            <input id="" name="" type="text"" value="">
+        </div>
+        <div>
+            <label for="">อำเภอ/เขต</label>
+            <select id="" name="">
+                <option value="">- เลือก -</option>
+                <option value="">ลาดพร้าว</option>
+                <option value="">บางกะปิ</option>
+                <option value="">อื่นๆ</option>
+            </select>
+            <label for="">โทรศัพท์มือถือ</label>
+            <input id="" name="" type=" tel" value="" placeholder="xxxxxxxxxx">
+        </div>
+        <div>
+            <label for="">ตำบล/แขวง</label>
+            <select id="" name="">
+                <option value="">- เลือก -</option>
+                <option value="">หัวหมาก</option>
+                <option value="">อื่นๆ</option>
+            </select>
+            <label for="E_mail">email</label>
+            <input type="email" name="email" placeholder="email@adress.com">
+        </div>
+        <div>
+            <label for="">รหัสไปรษณีย์</label>
+            <input id="" name="" type="text"" value="" style=" width:50px;" />
+        </div>
+        <b>ข้อมูลการศึกษา</b>
+        <div>
+            <label for="">จบจากสถานศึกษา</label>
+            <input id="" name="" type="text"" value="" />
+        </div>
+        <div>
+            <label for="">เกรดเฉลี่ยสะสม</label>
+            <Input type="radio" name="" value="0"> <input id="" name="" type="text"" value="" /> ระบุค่าระหว่าง 1.00-4.00
+            <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <Input type="radio" name="" value="0"> เทียบระดับ (สำหรับการศึกษานอกระบบ และ กศน.)
+        </div>
+        <div>
+            <label for="">ปีที่สำเร็จการศึกษา</label>
+            <input id="" name="" type="text"" value="" />
+        </div>
+        <input type="submit" value="Submit">
+        <input type="reset">
+
+    </form>
+</body>
+
+</html>
+เขียนถึง เธอก็เหมือนส.ว. "ไม่เห็นชอบ"เราบ้างเลย ชส.11
